@@ -1,0 +1,134 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Lufthansa Login</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+  <link href=".css" rel="stylesheet">
+  <style>
+    	body {
+		  background-color: #fff;
+		}
+		.header {
+		  background-color: #001b5d;
+		  color: white;
+		  padding: 10px 20px;
+		  display: flex;
+		  align-items: center;
+		}
+		.header img {
+		  height: 30px;
+		  margin-right: 10px;
+		}
+		.login-box {
+		  max-width: 500px;
+		  margin: 50px auto;
+		  padding: 30px;
+		  border-radius: 6px;
+		  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+		  border: 1px solid #ddd;
+		}
+		.btn-lufthansa {
+		  background-color: #f7a800;
+		  color: #000;
+		  font-weight: 600;
+		}
+		.btn-lufthansa:hover {
+		  background-color: #e39600;
+		}
+		.form-control:focus {
+		  box-shadow: none;
+		  border-color: #001b5d;
+		}
+		.info-text {
+		  font-size: 0.9rem;
+		  color: #6c757d;
+		}
+		.link-arrow {
+		  color: #001b5d;
+		  font-weight: 600;
+		  text-decoration: none;
+		}
+		.link-arrow::before {
+		  content: "→ ";
+		}
+		.luf
+		{
+			font-size:2.22rem;
+		}
+		.luu
+		{
+			font-size:1.50rem;
+		}	
+  </style>
+</head>
+<body>
+
+<!-- Header -->
+<div class="header">
+  <img src="image/h1.jpg" alt="Lufthansa" height="25">
+  <strong class="luf">Lufthansa</strong>
+</div>
+
+<!-- Cancel Link -->
+<div class="container mt-3">
+  <a href="index.html" class="text-dark"><i class="bi bi-arrow-left"></i> cancel</a>
+</div>
+
+<!-- Login Card -->
+<div class="login-box bg-white">
+  <h3 class="mb-3">Login</h3>
+  <p class="fw-semibold text-dark">Please enter your servicecard number or Travel ID (email address).</p><br><br>
+
+  <div class="mb-3 position-relative">
+    <label for="login" class="form-label visually-hidden">Travel ID / Servicecard number</label>
+    <input type="email" class="form-control" id="login" placeholder="Travel ID (email address) / Servicecard number">
+    <i class="bi bi-question-circle position-absolute end-0 top-50 translate-middle-y me-2 text-primary" style="cursor: pointer;"></i>
+  </div><br><br>
+
+  <div class="d-grid">
+    <button class="btn btn-lufthansa">Next</button><br><br>
+  </div>
+
+  <hr>
+
+  <p class="fw-semibold mt-3 mb-2">Forgot your PIN or password?</p><br>
+
+  <p class="info-text">If you do not yet have a Miles & More servicecard number or Travel ID, register now for Travel ID.</p><br>
+
+  <a href="#" class="link-arrow">Register for Travel ID</a><br>
+</div>
+<footer class="mt-5">
+
+  <div class="bg-dark text-white py-2">
+    <div class="luu" class="container d-flex flex-wrap justify-content-start gap-3 small">
+      <a href="#" class="text-white text-decoration-none">→ Contact</a>
+      <a href="#" class="text-white text-decoration-none">→ Imprint</a>
+      <a href="#" class="text-white text-decoration-none">→ Data protection</a>
+      <a href="#" class="text-white text-decoration-none">→ Legal notices</a>
+    </div>
+  </div>
+
+
+  <div class="bg-white py-3">
+    <div class="container d-flex justify-content-between align-items-center flex-wrap">
+      
+      <div class="d-flex align-items-center">
+        <img src="image/h1.jpg" alt="Lufthansa" height="24" class="me-2">
+        <strong class="text-dark">Lufthansa</strong>
+      </div>
+
+
+      <div class="text-muted small text-end">
+        A STAR ALLIANCE MEMBER
+        <img src="image\star.png"" alt="Star Alliance" height="20" class="ms-2">
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
